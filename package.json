@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ebeagusamuel/JS-restaurantpage#readme",
   "devDependencies": {
     "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
