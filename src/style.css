@@ -61,3 +61,19 @@ body {
   font-style: italic;
   color: yellow;
 }
+
+.menu-div {
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.menu-div h2 {
+  color: #50e70a;
+  font-size: 2rem;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

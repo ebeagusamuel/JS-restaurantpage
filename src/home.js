@@ -15,7 +15,7 @@ const home = (() => {
   homeDiv.appendChild(homeP1);
   homeDiv.appendChild(homeP2);
 
-  return {homeDiv}
+  return homeDiv
 
 })();
 

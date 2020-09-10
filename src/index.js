@@ -1,9 +1,11 @@
 import './style.css'
 import './images/background-image.jpg'
 import home from './home'
+import menu from './menu'
 
 const page = {
-  "Home": home
+  "Home": home,
+  "Menu": menu
 };
 const contentDiv = document.getElementById('content');
 const nav = document.createElement('nav')
@@ -15,7 +17,7 @@ function clearPage() {
 
 function render(val) {
   clearPage();
-  contentDiv.appendChild(page[val].homeDiv)
+  contentDiv.appendChild(page[val])
 }
 
 ['Home', 'Menu','Contact'].forEach(val => {
@@ -27,5 +29,5 @@ function render(val) {
 })
 
 contentDiv.appendChild(nav);
-contentDiv.appendChild(home.homeDiv)
+contentDiv.appendChild(home);
 
