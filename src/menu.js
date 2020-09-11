@@ -8,21 +8,21 @@ import Menu7 from './images/menu-7.jpg';
 import Menu8 from './images/menu-8.jpg';
 
 const menu = (() => {
-  let menuArr = [Menu1, Menu2, Menu3, Menu4, Menu5, Menu6, Menu7, Menu8];
-  let menuDiv = document.createElement('div');
+  const menuArr = [Menu1, Menu2, Menu3, Menu4, Menu5, Menu6, Menu7, Menu8];
+  const menuDiv = document.createElement('div');
   menuDiv.classList.add('menu-div');
 
-  let menuDivH2 = document.createElement('h2');
+  const menuDivH2 = document.createElement('h2');
   menuDivH2.textContent = 'Check out varieties of amazing dishes we have for you.';
 
-  let menuGrid = document.createElement('div');
+  const menuGrid = document.createElement('div');
   menuGrid.classList.add('menu-grid');
-  
-  for(let i = 0; i < 8; i++){
-    let menu = document.createElement('div');
+
+  for (let i = 0; i < 8; i += 1) {
+    const menu = document.createElement('div');
     menu.classList.add('menu');
 
-    let menuImg = new Image();
+    const menuImg = new Image();
     menuImg.src = menuArr[i];
     menuImg.style.width = '100%';
     menuImg.style.height = '300px';
@@ -36,7 +36,7 @@ const menu = (() => {
   menuDiv.appendChild(menuDivH2);
   menuDiv.appendChild(menuGrid);
 
-  return menuDiv 
+  return menuDiv;
 })();
 
-export default menu
+export default menu;
