@@ -13,14 +13,14 @@ const contentDiv = document.getElementById('content');
 const nav = document.createElement('nav');
 nav.classList.add('nav-container');
 
-function clearPage() {
+const clearPage = () => {
   contentDiv.lastChild.remove();
-}
+};
 
-function render(val) {
+const render = (val) => {
   clearPage();
   contentDiv.appendChild(page[val]);
-}
+};
 
 ['Home', 'Menu', 'Contact'].forEach(val => {
   const div = document.createElement('div');
