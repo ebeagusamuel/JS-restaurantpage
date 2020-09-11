@@ -13,7 +13,7 @@ const menu = (() => {
   menuDiv.classList.add('menu-div');
 
   let menuDivH2 = document.createElement('h2');
-  menuDivH2.textContent = 'Check out varieties amazing dishes we have for you.';
+  menuDivH2.textContent = 'Check out varieties of amazing dishes we have for you.';
 
   let menuGrid = document.createElement('div');
   menuGrid.classList.add('menu-grid');

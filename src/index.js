@@ -2,10 +2,12 @@ import './style.css'
 import './images/background-image.jpg'
 import home from './home'
 import menu from './menu'
+import contact from './contact'
 
 const page = {
   "Home": home,
-  "Menu": menu
+  "Menu": menu,
+  "Contact": contact
 };
 const contentDiv = document.getElementById('content');
 const nav = document.createElement('nav')
