@@ -1,0 +1,35 @@
+{
+  "name": "js-restaurantpage",
+  "version": "1.0.0",
+  "description": "A simple restaurant webpage",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebeagusamuel/JS-restaurantpage.git"
+  },
+  "keywords": [
+    "restaurant",
+    "DOM",
+    "webpack"
+  ],
+  "author": "Ebeagu Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebeagusamuel/JS-restaurantpage/issues"
+  },
+  "homepage": "https://github.com/ebeagusamuel/JS-restaurantpage#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
