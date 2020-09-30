@@ -15,7 +15,7 @@
 
 ## Live Website
 
-[Live Link](https://raw.githack.com/ebeagusamuel/JS-restaurantpage/restaurantpages/dist/index.html)
+[Live Link](https://raw.githack.com/ebeagusamuel/JS-restaurantpage/development/dist/index.html)
 
 ## Getting Started
 
